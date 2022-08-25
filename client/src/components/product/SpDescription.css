@@ -1,0 +1,49 @@
+.sp-desc-container {
+  flex-basis: 45rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.sp-img-container {
+  padding: 1rem 0 3rem 8rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.sp-img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.sp-rating-container {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  border-bottom: 2px solid rgba(224, 209, 248, 0.541);
+  height: 3rem;
+}
+
+.sp-reviews {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 0.35rem;
+  color: black;
+}
+
+.sp-desc {
+  padding: 2rem 0.5rem 1rem 0.75rem;
+  border-top: none;
+}
+
+.desc {
+  font-size: 0.9rem;
+  line-height: 2.5rem;
+  margin-left: 1rem;
+}
+
+.sp-product-desc {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+}

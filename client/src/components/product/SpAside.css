@@ -1,0 +1,72 @@
+.sp-aside {
+  height: 35rem;
+  padding-top: 2rem;
+  padding-right: 0.5rem;
+  flex-basis: 21.5rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding-bottom: 3rem;
+  border: 2px solid var(--purple-background);
+  background-color: rgb(252, 252, 252);
+  border-radius: 0.2rem;
+}
+
+.sp-aside-title {
+  margin-bottom: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  font-size: 1.75rem;
+  color: black;
+}
+
+.sp-aside-price {
+  font-size: 2.25rem;
+  padding-left: 3rem;
+  color: black;
+  margin-bottom: 4rem;
+}
+
+.sp-aside-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  height: 2.5rem;
+}
+
+.sp-aside-span {
+  font-weight: bold;
+  margin-left: 3rem;
+  font-size: 0.8rem;
+}
+
+.sp-aside-select {
+  border-color: var(--purple-background);
+  width: 2.5rem;
+}
+
+.sp-aside-btn {
+  height: 2rem;
+  width: 8rem;
+  color: white;
+  background-color: var(--primary-4);
+  font-weight: bold;
+  border-radius: 2rem;
+  margin-top: -0.25rem;
+}
+
+.item-added-alert {
+  color: green;
+  margin-bottom: 0.5rem;
+  text-align: end;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding-right: 4rem;
+  visibility: hidden;
+}
+
+.show-alert {
+  visibility: visible;
+}

@@ -1,0 +1,10 @@
+.loading-section {
+  padding-top: 2rem;
+}
+
+.loading-p {
+  letter-spacing: 0.1rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}

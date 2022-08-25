@@ -1,0 +1,119 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: whitesmoke;
+  width: 80vw;
+  max-width: 600px;
+  border-radius: 0.25rem;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+.modal h3 {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.modal-items-container {
+  margin-bottom: 1rem;
+  background-color: white;
+  padding: 0.5rem 0;
+  max-height: 15rem;
+  overflow-y: scroll;
+}
+
+.modal-items-container::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-total-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 2rem;
+  padding-right: 0.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.load {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 10rem;
+  margin-bottom: -1.5rem;
+  visibility: hidden;
+}
+
+.show-load {
+  visibility: visible;
+}
+
+.modal-total-content {
+  margin-bottom: 0.5rem;
+}
+
+.modal-total {
+  color: var(--primary-1);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.modal-total-black {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.modal-clear-btn,
+.confirm-btn {
+  margin-top: 1rem;
+}
+
+.modal-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.center {
+  margin-top: -2rem;
+  height: 5rem;
+}
+
+.modal-btn {
+  height: 2.5rem;
+  width: 8rem;
+  color: white;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+
+.confirm-btn {
+  background-color: var(--primary-1);
+}
+
+.modal-clear-btn {
+  background-color: rgb(255, 22, 22);
+}
+
+.no-top {
+  margin-right: -2rem;
+  margin-top: 3rem;
+}
+
+.thank-you {
+  font-size: 1.25rem;
+}

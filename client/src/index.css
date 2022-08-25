@@ -1,0 +1,104 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-1: rgb(99, 13, 126);
+  --primary-2: rgb(135, 52, 173);
+  --primary-4: rgb(107, 36, 201);
+  --purple-background: rgb(239, 231, 252);
+  --grey-50: #f0f4f8;
+  --grey-900: #102a43;
+}
+
+html,
+body {
+  min-width: 67.75rem;
+  width: 100%;
+  height: 100%;
+  color: var(--grey-900);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-1);
+}
+
+.search-left {
+  left: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 100%;
+}
+
+.search-left a {
+  padding: 0.75rem 0.25rem;
+  border-bottom: 1px solid var(--purple-background);
+}
+
+.search-drpdwn:hover {
+  display: hidden;
+}
+
+.hide:hover {
+  display: hidden;
+}
+
+.block {
+  display: block;
+}
+
+.block:hover {
+  display: hidden;
+}
+
+.no-pointer {
+  cursor: default;
+}
+
+.no-bottom {
+  border-bottom: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.no-scroll::-webkit-scrollbar {
+  display: default;
+}
+
+.blue {
+  color: blue;
+}

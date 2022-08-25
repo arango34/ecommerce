@@ -1,0 +1,35 @@
+.input-container {
+  padding-top: 0.9rem;
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+  flex-basis: 20rem;
+  flex-shrink: 0;
+  background-color: var(--primary-1);
+}
+
+.btn-nav {
+  width: 3rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  color: var(--grey-900);
+  height: 2.5rem;
+  font-size: 1.25rem;
+  color: white;
+  background-color: grey;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.inline {
+  display: inline-block;
+  flex-basis: 25rem;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.height-btn {
+  padding-top: 0.75rem;
+  width: 3rem;
+  flex-grow: 0;
+}

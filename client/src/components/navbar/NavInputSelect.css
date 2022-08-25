@@ -1,0 +1,15 @@
+.nav-select {
+  height: 2.5rem;
+  width: 5rem;
+  text-align: center;
+  border: none;
+  border-right: 1px solid grey;
+  background-color: var(--grey-50);
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.nav-select-option {
+  margin-bottom: 2rem;
+  color: purple;
+}

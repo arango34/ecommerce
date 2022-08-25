@@ -1,0 +1,96 @@
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  left: -18rem;
+  padding: 2rem;
+  background-color: white;
+  color: var(--primary-1);
+  border-radius: 0.25rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(240, 234, 234);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(70, 9, 88);
+  height: 4.25rem;
+}
+
+.drpdwnbtn-container {
+  flex-basis: 11rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 3.75rem;
+  padding: 0.85rem 0 0 0.75rem;
+}
+
+.drpdwn-big-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.5rem;
+}
+
+.drpdwn-big {
+  font-weight: bold;
+  letter-spacing: -0.025rem;
+  white-space: nowrap;
+  margin-right: 0.25rem;
+}
+
+.drpdwn-small {
+  font-size: 0.95rem;
+  letter-spacing: 0.025rem;
+  margin-bottom: 0.4rem;
+  margin-top: 0.05rem;
+}
+
+.drpdwn-icon {
+  margin-top: 0.15rem;
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.bolder {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.show-search {
+  display: block;
+}
+
+.smaller {
+  font-size: 0.725rem;
+  margin-right: -0.5rem;
+}

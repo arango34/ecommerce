@@ -1,0 +1,46 @@
+.modal-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgb(228, 225, 225);
+}
+
+.modal-flex {
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-amount {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem;
+}
+
+.modal-img {
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.modal-title {
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+  font-weight: bold;
+  color: black;
+  width: 13rem;
+}
+
+.modal-qty-container {
+  color: var(--primary-1);
+  margin-right: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+
+.modal-price {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: black;
+}

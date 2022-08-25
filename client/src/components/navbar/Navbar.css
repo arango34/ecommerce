@@ -1,0 +1,103 @@
+.nav-wrapper {
+  position: relative;
+}
+
+.navbar {
+  background-color: var(--primary-1);
+  color: white;
+  height: 4rem;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 4rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  width: 100%;
+}
+
+.logo-container {
+  padding-top: 0.5rem;
+  margin-right: 1rem;
+  flex-basis: 7.5rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 6.75rem;
+  height: 3.5rem;
+}
+
+.nav-height {
+  height: 4rem;
+  background-color: var(--primary-1);
+}
+
+.height-cart {
+  padding-top: 0.5rem;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  margin-top: 0.5rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: var(--primary-1);
+}
+
+.nav-container:hover {
+  cursor: pointer;
+}
+
+.amount-container {
+  position: absolute;
+  top: -0.6rem;
+  right: -0.6rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-amount {
+  margin-bottom: 0;
+  font-weight: bold;
+  padding-right: 0.9rem;
+}
+
+.cart-icon {
+  margin-top: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  flex-basis: 2rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.nav-spacer {
+  flex-basis: 5rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: 4rem;
+  background-color: var(--primary-1);
+}
+
+.nav-spacer-small {
+  flex-basis: 1rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: 4rem;
+  background-color: var(--primary-1);
+}
+
+@media screen and (min-width: 1000px) {
+  .nav-spacer-small {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.single-product-section {
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  padding-bottom: 5rem;
+}
+
+.single-product-container {
+  display: flex;
+  width: 83rem;
+  padding-left: 9rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  justify-content: space-around;
+}
+
+.single-product-section::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .single-product-container {
+    padding-left: 7rem;
+  }
+}

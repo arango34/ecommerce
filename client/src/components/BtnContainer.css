@@ -1,0 +1,22 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  width: 6rem;
+  justify-content: space-around;
+  margin: 0 2rem;
+}
+
+.btn-link {
+  font-size: 1.75rem;
+  height: 2.25rem;
+  padding-top: 0.1rem;
+}
+
+.small {
+  font-size: 1.5rem;
+}
